@@ -1,0 +1,48 @@
+[debug] [2022-02-14T05:13:10.439Z] ----------------------------------------------------------------------
+[debug] [2022-02-14T05:13:10.443Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ACER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-02-14T05:13:10.444Z] CLI Version:   10.2.0
+[debug] [2022-02-14T05:13:10.444Z] Platform:      win32
+[debug] [2022-02-14T05:13:10.444Z] Node Version:  v16.13.2
+[debug] [2022-02-14T05:13:10.446Z] Time:          Sun Feb 13 2022 21:13:10 GMT-0800 (Pacific Standard Time)
+[debug] [2022-02-14T05:13:10.447Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-02-14T05:13:10.588Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-02-14T05:13:10.589Z] > authorizing via signed-in user (shreyadhoke04@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ACER\OneDrive\Desktop\project\pathvisualise
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-02-14T05:13:18.045Z] Using project from CLI flag: path-finder-d93c6
+[debug] [2022-02-14T05:13:18.049Z] > refreshing access token with scopes: []
+[debug] [2022-02-14T05:13:18.050Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-02-14T05:13:18.515Z] <<< HTTP RESPONSE 200 {"date":"Sun, 13 Feb 2022 15:40:22 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-02-14T05:13:18.535Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/path-finder-d93c6 [none]
+[debug] [2022-02-14T05:13:19.374Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/path-finder-d93c6 200
+[debug] [2022-02-14T05:13:19.375Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/path-finder-d93c6 {"projectId":"path-finder-d93c6","projectNumber":"133822078245","displayName":"PATH FINDER","name":"projects/path-finder-d93c6","resources":{"hostingSite":"path-finder-d93c6"},"state":"ACTIVE"}
+[info] i  Using project path-finder-d93c6 (PATH FINDER) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
